@@ -44,6 +44,13 @@ namespace basicosCSharp
             bool comparacionIgual = comparacionY == comparacionO;
             bool valorNegado = !comparacionIgual;
 
+            string[] nombres = new string[10];
+            nombres[4] = "Ruben";
+            string[] diasDeLaSemana = { "Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado", "Domingo" };
+            Console.WriteLine("La semana tiene {0} días", diasDeLaSemana.Length);
+            int[] numerosPrimos = { 1, 2, 3, 5, 7, 11 };
+            bool[] celdasMarcadas = new bool[16];
+
 
 
             Console.ReadLine();
