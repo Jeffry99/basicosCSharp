@@ -95,7 +95,7 @@ namespace basicosCSharp
             }
             double Multiplicar(int a, int b)
             {
-                resultado = a + b;
+                resultado = a * b;
                 return resultado;
             }
 
