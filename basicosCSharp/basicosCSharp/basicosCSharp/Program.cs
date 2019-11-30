@@ -39,6 +39,11 @@ namespace basicosCSharp
             primerNumero++;
             primerNumero--;
 
+            bool comparacionY = true && true;
+            var comparacionO = true || false;
+            bool comparacionIgual = comparacionY == comparacionO;
+            bool valorNegado = !comparacionIgual;
+
 
 
             Console.ReadLine();
